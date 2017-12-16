@@ -3,4 +3,4 @@ notifications:
   email: false
 otp_release:
   - 18.3
-script: rebar compile
+script: rebar get-deps && rebar compile
